@@ -1,0 +1,40 @@
+Summary:
+The Financial Chatbot is a simple Python-based command-line application designed to provide financial information for three major companies: Apple, Microsoft, and Tesla. Users can interact with the chatbot by selecting a company and then choosing from a list of predefined financial queries. The chatbot responds with specific information based on the latest fiscal year data.
+How the Chatbot Works:
+
+1. Startup:
+i) The user is greeted with a welcome message.
+ii) The user is prompted to select one of three companies: Apple, Microsoft, or Tesla.
+
+2. Query Selection:
+i) After selecting a company, the user is presented with a list of predefined financial queries.
+ii) The user selects a query by entering the corresponding number.
+
+3. Response:
+i) The chatbot processes the query and provides a canned response based on the selected company and query.
+
+4. Additional Queries:
+i) The user is prompted to ask another question or exit the chatbot.
+ii) If the user chooses to ask another question, the process repeats; otherwise, the session ends with a goodbye message.
+
+Predefined Queries:
+* The chatbot can respond to the following predefined queries:
+1. What is the total revenue for the latest fiscal year?
+2. How has net income changed over the last year?
+3. What are the total assets as of the latest fiscal year?
+4. Can you compare the total liabilities for the latest fiscal year?
+5. What is the year-over-year change in revenue?
+6. How has cash flow from operating activities changed over the past three years?
+7. What is the net income for the past three fiscal years?
+8. Can you show the trend of total revenue over the last three years?
+9. What is the percentage change in total assets from the previous year?
+10. How does the total liabilities compare to others for the latest fiscal year?
+
+Limitations:
+1. Limited Scope: The chatbot can only provide information on Apple, Microsoft, and Tesla for a limited set of predefined queries.
+2. Static Data: The responses are based on a static dataset from the latest fiscal year and do not update dynamically.
+3. No Natural Language Processing: The chatbot does not process natural language queries; users must choose from a predefined list of queries.
+4. Limited Interaction: The chatbot interaction is linear and limited to the command line, lacking more advanced conversational features.
+
+Conclusion:
+The Financial Chatbot is a useful tool for quickly obtaining specific financial information about Apple, Microsoft, and Tesla. While it has limitations in scope and interaction, it serves as a foundation for building more complex and dynamic financial chatbots in the future.
